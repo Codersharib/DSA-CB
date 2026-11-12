@@ -16,7 +16,7 @@ public class permutation_ {
 
     public static void permu(int[] nums,boolean[] used, List<List<Integer>> ans, List<Integer> ll) {
         if(nums.length==ll.size()){
-            if(!ans.contains(ll))
+            // if(!ans.contains(ll))
                 ans.add(new ArrayList<>(ll));
             return;
         }
